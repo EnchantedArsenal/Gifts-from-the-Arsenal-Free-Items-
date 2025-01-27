@@ -1,0 +1,51 @@
+{
+  "id": "enchanted-arsenal-gifts-from-the-arsenal-free-items",
+  "title": "Enchanted Arsenal - Gifts from the Arsenal (Free Items)",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ActiveAuras",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Triumphant Dreams",
+      "url": "patreon.com/EnchantedArsenal",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "gifts-from-the-arsenal",
+      "label": "Gifts from the Arsenal",
+      "path": "packs/gifts-from-the-arsenal",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
